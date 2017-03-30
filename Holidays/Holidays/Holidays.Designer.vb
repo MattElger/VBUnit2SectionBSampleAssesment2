@@ -65,7 +65,7 @@ Partial Class Holidays
         'cmdSave
         '
         Me.cmdSave.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.cmdSave.Location = New System.Drawing.Point(11, 229)
+        Me.cmdSave.Location = New System.Drawing.Point(14, 229)
         Me.cmdSave.Name = "cmdSave"
         Me.cmdSave.Size = New System.Drawing.Size(96, 32)
         Me.cmdSave.TabIndex = 18
@@ -86,7 +86,7 @@ Partial Class Holidays
         'txtRating
         '
         Me.txtRating.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtRating.Location = New System.Drawing.Point(109, 144)
+        Me.txtRating.Location = New System.Drawing.Point(109, 131)
         Me.txtRating.Name = "txtRating"
         Me.txtRating.Size = New System.Drawing.Size(112, 20)
         Me.txtRating.TabIndex = 5
@@ -94,7 +94,7 @@ Partial Class Holidays
         'txtHolidayType
         '
         Me.txtHolidayType.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtHolidayType.Location = New System.Drawing.Point(109, 120)
+        Me.txtHolidayType.Location = New System.Drawing.Point(109, 107)
         Me.txtHolidayType.Name = "txtHolidayType"
         Me.txtHolidayType.Size = New System.Drawing.Size(112, 20)
         Me.txtHolidayType.TabIndex = 4
@@ -102,7 +102,7 @@ Partial Class Holidays
         'txtLocation
         '
         Me.txtLocation.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtLocation.Location = New System.Drawing.Point(109, 96)
+        Me.txtLocation.Location = New System.Drawing.Point(109, 83)
         Me.txtLocation.Name = "txtLocation"
         Me.txtLocation.Size = New System.Drawing.Size(112, 20)
         Me.txtLocation.TabIndex = 3
@@ -110,7 +110,7 @@ Partial Class Holidays
         'txtHolidayName
         '
         Me.txtHolidayName.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtHolidayName.Location = New System.Drawing.Point(109, 72)
+        Me.txtHolidayName.Location = New System.Drawing.Point(109, 59)
         Me.txtHolidayName.Name = "txtHolidayName"
         Me.txtHolidayName.Size = New System.Drawing.Size(112, 20)
         Me.txtHolidayName.TabIndex = 2
@@ -118,7 +118,7 @@ Partial Class Holidays
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(19, 144)
+        Me.Label5.Location = New System.Drawing.Point(19, 131)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(38, 13)
         Me.Label5.TabIndex = 14
@@ -127,7 +127,7 @@ Partial Class Holidays
         'txtHolidayID
         '
         Me.txtHolidayID.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtHolidayID.Location = New System.Drawing.Point(109, 48)
+        Me.txtHolidayID.Location = New System.Drawing.Point(109, 35)
         Me.txtHolidayID.Name = "txtHolidayID"
         Me.txtHolidayID.Size = New System.Drawing.Size(112, 20)
         Me.txtHolidayID.TabIndex = 1
@@ -135,7 +135,7 @@ Partial Class Holidays
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(19, 120)
+        Me.Label4.Location = New System.Drawing.Point(19, 107)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(69, 13)
         Me.Label4.TabIndex = 13
@@ -144,7 +144,7 @@ Partial Class Holidays
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(19, 96)
+        Me.Label3.Location = New System.Drawing.Point(19, 83)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(48, 13)
         Me.Label3.TabIndex = 12
@@ -153,7 +153,7 @@ Partial Class Holidays
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(19, 72)
+        Me.Label2.Location = New System.Drawing.Point(19, 59)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(73, 13)
         Me.Label2.TabIndex = 11
@@ -162,7 +162,7 @@ Partial Class Holidays
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(19, 48)
+        Me.Label1.Location = New System.Drawing.Point(19, 35)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(53, 13)
         Me.Label1.TabIndex = 10
@@ -171,7 +171,7 @@ Partial Class Holidays
         'cmdCount
         '
         Me.cmdCount.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.cmdCount.Location = New System.Drawing.Point(109, 229)
+        Me.cmdCount.Location = New System.Drawing.Point(125, 229)
         Me.cmdCount.Name = "cmdCount"
         Me.cmdCount.Size = New System.Drawing.Size(96, 32)
         Me.cmdCount.TabIndex = 0
@@ -180,11 +180,11 @@ Partial Class Holidays
         '
         'btnCustomers
         '
-        Me.btnCustomers.Location = New System.Drawing.Point(211, 229)
+        Me.btnCustomers.Location = New System.Drawing.Point(11, 186)
         Me.btnCustomers.Name = "btnCustomers"
-        Me.btnCustomers.Size = New System.Drawing.Size(84, 32)
-        Me.btnCustomers.TabIndex = 22
-        Me.btnCustomers.Text = "To Customers"
+        Me.btnCustomers.Size = New System.Drawing.Size(210, 37)
+        Me.btnCustomers.TabIndex = 19
+        Me.btnCustomers.Text = "To Customer Section"
         Me.btnCustomers.UseVisualStyleBackColor = True
         '
         'Holidays

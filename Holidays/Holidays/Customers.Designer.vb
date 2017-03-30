@@ -22,220 +22,258 @@ Partial Class frmCustomers
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnSave = New System.Windows.Forms.Button()
-        Me.lblName = New System.Windows.Forms.Label()
-        Me.txtPostcode = New System.Windows.Forms.TextBox()
-        Me.txtAddress = New System.Windows.Forms.TextBox()
-        Me.txtFirstName = New System.Windows.Forms.TextBox()
-        Me.lblPostCode = New System.Windows.Forms.Label()
-        Me.txtCustomerID = New System.Windows.Forms.TextBox()
-        Me.lblDOB = New System.Windows.Forms.Label()
-        Me.lblAddress = New System.Windows.Forms.Label()
-        Me.lblFirstName = New System.Windows.Forms.Label()
-        Me.lblCustomerID = New System.Windows.Forms.Label()
         Me.btnRetrieve = New System.Windows.Forms.Button()
-        Me.txtLastName = New System.Windows.Forms.TextBox()
+        Me.lblCustomerID = New System.Windows.Forms.Label()
+        Me.lblFirstName = New System.Windows.Forms.Label()
         Me.lblLastName = New System.Windows.Forms.Label()
-        Me.dtpDOB = New System.Windows.Forms.DateTimePicker()
+        Me.lblAddressLine1 = New System.Windows.Forms.Label()
+        Me.txtCustomerID = New System.Windows.Forms.TextBox()
+        Me.lblAddressLine2 = New System.Windows.Forms.Label()
+        Me.txtFirstName = New System.Windows.Forms.TextBox()
+        Me.txtLastName = New System.Windows.Forms.TextBox()
+        Me.txtAddress1 = New System.Windows.Forms.TextBox()
+        Me.txtAddress2 = New System.Windows.Forms.TextBox()
+        Me.lblCustomers = New System.Windows.Forms.Label()
+        Me.btnSave = New System.Windows.Forms.Button()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.cmbCustomerID = New System.Windows.Forms.ComboBox()
         Me.btnBack = New System.Windows.Forms.Button()
+        Me.dtpDOB = New System.Windows.Forms.DateTimePicker()
+        Me.lblDOB = New System.Windows.Forms.Label()
+        Me.txtPostcode = New System.Windows.Forms.TextBox()
+        Me.lblPostcode = New System.Windows.Forms.Label()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'btnSave
-        '
-        Me.btnSave.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.btnSave.Location = New System.Drawing.Point(4, 226)
-        Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(54, 32)
-        Me.btnSave.TabIndex = 31
-        Me.btnSave.Text = "Save"
-        Me.btnSave.UseVisualStyleBackColor = False
-        '
-        'lblName
-        '
-        Me.lblName.AutoSize = True
-        Me.lblName.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.lblName.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblName.Location = New System.Drawing.Point(35, 3)
-        Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(129, 29)
-        Me.lblName.TabIndex = 25
-        Me.lblName.Text = "Customers"
-        '
-        'txtPostcode
-        '
-        Me.txtPostcode.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtPostcode.Location = New System.Drawing.Point(138, 147)
-        Me.txtPostcode.Name = "txtPostcode"
-        Me.txtPostcode.Size = New System.Drawing.Size(134, 20)
-        Me.txtPostcode.TabIndex = 24
-        '
-        'txtAddress
-        '
-        Me.txtAddress.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtAddress.Location = New System.Drawing.Point(138, 121)
-        Me.txtAddress.Name = "txtAddress"
-        Me.txtAddress.Size = New System.Drawing.Size(134, 20)
-        Me.txtAddress.TabIndex = 22
-        '
-        'txtFirstName
-        '
-        Me.txtFirstName.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtFirstName.Location = New System.Drawing.Point(138, 69)
-        Me.txtFirstName.Name = "txtFirstName"
-        Me.txtFirstName.Size = New System.Drawing.Size(134, 20)
-        Me.txtFirstName.TabIndex = 21
-        '
-        'lblPostCode
-        '
-        Me.lblPostCode.AutoSize = True
-        Me.lblPostCode.Location = New System.Drawing.Point(48, 147)
-        Me.lblPostCode.Name = "lblPostCode"
-        Me.lblPostCode.Size = New System.Drawing.Size(52, 13)
-        Me.lblPostCode.TabIndex = 30
-        Me.lblPostCode.Text = "Postcode"
-        '
-        'txtCustomerID
-        '
-        Me.txtCustomerID.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtCustomerID.Location = New System.Drawing.Point(138, 45)
-        Me.txtCustomerID.Name = "txtCustomerID"
-        Me.txtCustomerID.Size = New System.Drawing.Size(134, 20)
-        Me.txtCustomerID.TabIndex = 20
-        '
-        'lblDOB
-        '
-        Me.lblDOB.AutoSize = True
-        Me.lblDOB.Location = New System.Drawing.Point(48, 179)
-        Me.lblDOB.Name = "lblDOB"
-        Me.lblDOB.Size = New System.Drawing.Size(66, 13)
-        Me.lblDOB.TabIndex = 29
-        Me.lblDOB.Text = "Date of Birth"
-        '
-        'lblAddress
-        '
-        Me.lblAddress.AutoSize = True
-        Me.lblAddress.Location = New System.Drawing.Point(48, 121)
-        Me.lblAddress.Name = "lblAddress"
-        Me.lblAddress.Size = New System.Drawing.Size(45, 13)
-        Me.lblAddress.TabIndex = 28
-        Me.lblAddress.Text = "Address"
-        '
-        'lblFirstName
-        '
-        Me.lblFirstName.AutoSize = True
-        Me.lblFirstName.Location = New System.Drawing.Point(48, 69)
-        Me.lblFirstName.Name = "lblFirstName"
-        Me.lblFirstName.Size = New System.Drawing.Size(57, 13)
-        Me.lblFirstName.TabIndex = 27
-        Me.lblFirstName.Text = "First Name"
-        '
-        'lblCustomerID
-        '
-        Me.lblCustomerID.AutoSize = True
-        Me.lblCustomerID.Location = New System.Drawing.Point(48, 45)
-        Me.lblCustomerID.Name = "lblCustomerID"
-        Me.lblCustomerID.Size = New System.Drawing.Size(62, 13)
-        Me.lblCustomerID.TabIndex = 26
-        Me.lblCustomerID.Text = "CustomerID"
         '
         'btnRetrieve
         '
         Me.btnRetrieve.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.btnRetrieve.Location = New System.Drawing.Point(203, 226)
+        Me.btnRetrieve.Location = New System.Drawing.Point(243, 229)
         Me.btnRetrieve.Name = "btnRetrieve"
-        Me.btnRetrieve.Size = New System.Drawing.Size(69, 32)
-        Me.btnRetrieve.TabIndex = 19
+        Me.btnRetrieve.Size = New System.Drawing.Size(96, 32)
+        Me.btnRetrieve.TabIndex = 0
         Me.btnRetrieve.Text = "Retrieve"
         Me.btnRetrieve.UseVisualStyleBackColor = False
         '
-        'txtLastName
+        'lblCustomerID
         '
-        Me.txtLastName.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtLastName.Location = New System.Drawing.Point(138, 95)
-        Me.txtLastName.Name = "txtLastName"
-        Me.txtLastName.Size = New System.Drawing.Size(134, 20)
-        Me.txtLastName.TabIndex = 32
+        Me.lblCustomerID.AutoSize = True
+        Me.lblCustomerID.Location = New System.Drawing.Point(19, 35)
+        Me.lblCustomerID.Name = "lblCustomerID"
+        Me.lblCustomerID.Size = New System.Drawing.Size(62, 13)
+        Me.lblCustomerID.TabIndex = 10
+        Me.lblCustomerID.Text = "CustomerID"
+        '
+        'lblFirstName
+        '
+        Me.lblFirstName.AutoSize = True
+        Me.lblFirstName.Location = New System.Drawing.Point(19, 59)
+        Me.lblFirstName.Name = "lblFirstName"
+        Me.lblFirstName.Size = New System.Drawing.Size(57, 13)
+        Me.lblFirstName.TabIndex = 11
+        Me.lblFirstName.Text = "First Name"
         '
         'lblLastName
         '
         Me.lblLastName.AutoSize = True
-        Me.lblLastName.Location = New System.Drawing.Point(48, 95)
+        Me.lblLastName.Location = New System.Drawing.Point(19, 83)
         Me.lblLastName.Name = "lblLastName"
         Me.lblLastName.Size = New System.Drawing.Size(58, 13)
-        Me.lblLastName.TabIndex = 33
+        Me.lblLastName.TabIndex = 12
         Me.lblLastName.Text = "Last Name"
         '
-        'dtpDOB
+        'lblAddressLine1
         '
-        Me.dtpDOB.Location = New System.Drawing.Point(138, 173)
-        Me.dtpDOB.Name = "dtpDOB"
-        Me.dtpDOB.Size = New System.Drawing.Size(134, 20)
-        Me.dtpDOB.TabIndex = 34
+        Me.lblAddressLine1.AutoSize = True
+        Me.lblAddressLine1.Location = New System.Drawing.Point(19, 107)
+        Me.lblAddressLine1.Name = "lblAddressLine1"
+        Me.lblAddressLine1.Size = New System.Drawing.Size(73, 13)
+        Me.lblAddressLine1.TabIndex = 13
+        Me.lblAddressLine1.Text = "Address line 1"
+        '
+        'txtCustomerID
+        '
+        Me.txtCustomerID.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtCustomerID.Enabled = False
+        Me.txtCustomerID.Location = New System.Drawing.Point(109, 35)
+        Me.txtCustomerID.Name = "txtCustomerID"
+        Me.txtCustomerID.Size = New System.Drawing.Size(168, 20)
+        Me.txtCustomerID.TabIndex = 1
+        Me.txtCustomerID.Text = "10001"
+        '
+        'lblAddressLine2
+        '
+        Me.lblAddressLine2.AutoSize = True
+        Me.lblAddressLine2.Location = New System.Drawing.Point(19, 131)
+        Me.lblAddressLine2.Name = "lblAddressLine2"
+        Me.lblAddressLine2.Size = New System.Drawing.Size(77, 13)
+        Me.lblAddressLine2.TabIndex = 14
+        Me.lblAddressLine2.Text = "Address Line 2"
+        '
+        'txtFirstName
+        '
+        Me.txtFirstName.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtFirstName.Location = New System.Drawing.Point(109, 59)
+        Me.txtFirstName.Name = "txtFirstName"
+        Me.txtFirstName.Size = New System.Drawing.Size(168, 20)
+        Me.txtFirstName.TabIndex = 2
+        '
+        'txtLastName
+        '
+        Me.txtLastName.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtLastName.Location = New System.Drawing.Point(109, 83)
+        Me.txtLastName.Name = "txtLastName"
+        Me.txtLastName.Size = New System.Drawing.Size(168, 20)
+        Me.txtLastName.TabIndex = 3
+        '
+        'txtAddress1
+        '
+        Me.txtAddress1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtAddress1.Location = New System.Drawing.Point(109, 107)
+        Me.txtAddress1.Name = "txtAddress1"
+        Me.txtAddress1.Size = New System.Drawing.Size(168, 20)
+        Me.txtAddress1.TabIndex = 4
+        '
+        'txtAddress2
+        '
+        Me.txtAddress2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtAddress2.Location = New System.Drawing.Point(109, 131)
+        Me.txtAddress2.Name = "txtAddress2"
+        Me.txtAddress2.Size = New System.Drawing.Size(168, 20)
+        Me.txtAddress2.TabIndex = 5
+        '
+        'lblCustomers
+        '
+        Me.lblCustomers.AutoSize = True
+        Me.lblCustomers.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.lblCustomers.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCustomers.Location = New System.Drawing.Point(6, 6)
+        Me.lblCustomers.Name = "lblCustomers"
+        Me.lblCustomers.Size = New System.Drawing.Size(129, 29)
+        Me.lblCustomers.TabIndex = 9
+        Me.lblCustomers.Text = "Customers"
+        '
+        'btnSave
+        '
+        Me.btnSave.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.btnSave.Location = New System.Drawing.Point(14, 229)
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(96, 32)
+        Me.btnSave.TabIndex = 18
+        Me.btnSave.Text = "Save"
+        Me.btnSave.UseVisualStyleBackColor = False
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Panel1.Controls.Add(Me.cmbCustomerID)
+        Me.Panel1.Controls.Add(Me.btnBack)
+        Me.Panel1.Controls.Add(Me.dtpDOB)
+        Me.Panel1.Controls.Add(Me.lblDOB)
+        Me.Panel1.Controls.Add(Me.txtPostcode)
+        Me.Panel1.Controls.Add(Me.lblPostcode)
+        Me.Panel1.Controls.Add(Me.btnSave)
+        Me.Panel1.Controls.Add(Me.lblCustomers)
+        Me.Panel1.Controls.Add(Me.txtAddress2)
+        Me.Panel1.Controls.Add(Me.txtAddress1)
+        Me.Panel1.Controls.Add(Me.txtLastName)
+        Me.Panel1.Controls.Add(Me.txtFirstName)
+        Me.Panel1.Controls.Add(Me.lblAddressLine2)
+        Me.Panel1.Controls.Add(Me.txtCustomerID)
+        Me.Panel1.Controls.Add(Me.lblAddressLine1)
+        Me.Panel1.Controls.Add(Me.lblLastName)
+        Me.Panel1.Controls.Add(Me.lblFirstName)
+        Me.Panel1.Controls.Add(Me.lblCustomerID)
+        Me.Panel1.Controls.Add(Me.btnRetrieve)
+        Me.Panel1.Location = New System.Drawing.Point(-10, -12)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(439, 374)
+        Me.Panel1.TabIndex = 22
         '
         'cmbCustomerID
         '
         Me.cmbCustomerID.FormattingEnabled = True
-        Me.cmbCustomerID.Location = New System.Drawing.Point(64, 226)
+        Me.cmbCustomerID.Location = New System.Drawing.Point(116, 236)
         Me.cmbCustomerID.Name = "cmbCustomerID"
-        Me.cmbCustomerID.Size = New System.Drawing.Size(133, 21)
-        Me.cmbCustomerID.TabIndex = 35
+        Me.cmbCustomerID.Size = New System.Drawing.Size(121, 21)
+        Me.cmbCustomerID.TabIndex = 25
         Me.cmbCustomerID.Visible = False
         '
         'btnBack
         '
         Me.btnBack.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.btnBack.Location = New System.Drawing.Point(203, 226)
+        Me.btnBack.Location = New System.Drawing.Point(243, 229)
         Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(69, 32)
-        Me.btnBack.TabIndex = 36
+        Me.btnBack.Size = New System.Drawing.Size(96, 32)
+        Me.btnBack.TabIndex = 24
         Me.btnBack.Text = "Back"
         Me.btnBack.UseVisualStyleBackColor = False
         Me.btnBack.Visible = False
+        '
+        'dtpDOB
+        '
+        Me.dtpDOB.Location = New System.Drawing.Point(109, 183)
+        Me.dtpDOB.Name = "dtpDOB"
+        Me.dtpDOB.Size = New System.Drawing.Size(168, 20)
+        Me.dtpDOB.TabIndex = 23
+        '
+        'lblDOB
+        '
+        Me.lblDOB.AutoSize = True
+        Me.lblDOB.Location = New System.Drawing.Point(19, 183)
+        Me.lblDOB.Name = "lblDOB"
+        Me.lblDOB.Size = New System.Drawing.Size(66, 13)
+        Me.lblDOB.TabIndex = 22
+        Me.lblDOB.Text = "Date of Birth"
+        '
+        'txtPostcode
+        '
+        Me.txtPostcode.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtPostcode.Location = New System.Drawing.Point(109, 157)
+        Me.txtPostcode.Name = "txtPostcode"
+        Me.txtPostcode.Size = New System.Drawing.Size(168, 20)
+        Me.txtPostcode.TabIndex = 19
+        '
+        'lblPostcode
+        '
+        Me.lblPostcode.AutoSize = True
+        Me.lblPostcode.Location = New System.Drawing.Point(19, 157)
+        Me.lblPostcode.Name = "lblPostcode"
+        Me.lblPostcode.Size = New System.Drawing.Size(52, 13)
+        Me.lblPostcode.TabIndex = 20
+        Me.lblPostcode.Text = "Postcode"
         '
         'frmCustomers
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 261)
-        Me.Controls.Add(Me.btnBack)
-        Me.Controls.Add(Me.cmbCustomerID)
-        Me.Controls.Add(Me.dtpDOB)
-        Me.Controls.Add(Me.txtLastName)
-        Me.Controls.Add(Me.lblLastName)
-        Me.Controls.Add(Me.btnSave)
-        Me.Controls.Add(Me.lblName)
-        Me.Controls.Add(Me.txtPostcode)
-        Me.Controls.Add(Me.txtAddress)
-        Me.Controls.Add(Me.txtFirstName)
-        Me.Controls.Add(Me.lblPostCode)
-        Me.Controls.Add(Me.txtCustomerID)
-        Me.Controls.Add(Me.lblDOB)
-        Me.Controls.Add(Me.lblAddress)
-        Me.Controls.Add(Me.lblFirstName)
-        Me.Controls.Add(Me.lblCustomerID)
-        Me.Controls.Add(Me.btnRetrieve)
+        Me.ClientSize = New System.Drawing.Size(426, 360)
+        Me.Controls.Add(Me.Panel1)
         Me.Name = "frmCustomers"
         Me.Text = "Customers"
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
-    Friend WithEvents btnSave As System.Windows.Forms.Button
-    Friend WithEvents lblName As System.Windows.Forms.Label
-    Friend WithEvents txtPostcode As System.Windows.Forms.TextBox
-    Friend WithEvents txtAddress As System.Windows.Forms.TextBox
-    Friend WithEvents txtFirstName As System.Windows.Forms.TextBox
-    Friend WithEvents lblPostCode As System.Windows.Forms.Label
-    Friend WithEvents txtCustomerID As System.Windows.Forms.TextBox
-    Friend WithEvents lblDOB As System.Windows.Forms.Label
-    Private WithEvents lblAddress As System.Windows.Forms.Label
-    Friend WithEvents lblFirstName As System.Windows.Forms.Label
-    Friend WithEvents lblCustomerID As System.Windows.Forms.Label
     Friend WithEvents btnRetrieve As System.Windows.Forms.Button
+    Friend WithEvents lblCustomerID As System.Windows.Forms.Label
+    Friend WithEvents lblFirstName As System.Windows.Forms.Label
+    Private WithEvents lblLastName As System.Windows.Forms.Label
+    Friend WithEvents lblAddressLine1 As System.Windows.Forms.Label
+    Friend WithEvents txtCustomerID As System.Windows.Forms.TextBox
+    Friend WithEvents lblAddressLine2 As System.Windows.Forms.Label
+    Friend WithEvents txtFirstName As System.Windows.Forms.TextBox
     Friend WithEvents txtLastName As System.Windows.Forms.TextBox
-    Friend WithEvents lblLastName As System.Windows.Forms.Label
-    Friend WithEvents dtpDOB As System.Windows.Forms.DateTimePicker
+    Friend WithEvents txtAddress1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtAddress2 As System.Windows.Forms.TextBox
+    Friend WithEvents lblCustomers As System.Windows.Forms.Label
+    Friend WithEvents btnSave As System.Windows.Forms.Button
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents cmbCustomerID As System.Windows.Forms.ComboBox
     Friend WithEvents btnBack As System.Windows.Forms.Button
+    Friend WithEvents dtpDOB As System.Windows.Forms.DateTimePicker
+    Friend WithEvents lblDOB As System.Windows.Forms.Label
+    Friend WithEvents txtPostcode As System.Windows.Forms.TextBox
+    Friend WithEvents lblPostcode As System.Windows.Forms.Label
 End Class

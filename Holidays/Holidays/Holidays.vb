@@ -47,8 +47,8 @@ Public Class Holidays
             CountGot = 0
             If Trim(Mid(HolidayData(i), 1, 50)) = txtHolidayID.Text And Not txtHolidayID.Text = "" Then CountGot = CountGot + 1
             If Trim(Mid(HolidayData(i), 51, 50)) = txtHolidayName.Text And Not txtHolidayName.Text = "" Then CountGot = CountGot + 1
-            If Trim(Mid(HolidayData(i), 101, 50)) = txtHolidayType.Text And Not txtLocation.Text = "" Then CountGot = CountGot + 1
-            If Trim(Mid(HolidayData(i), 151, 50)) = txtLocation.Text And Not txtHolidayType.Text = "" Then CountGot = CountGot + 1 'Counting how many attributes follow the search
+            If Trim(Mid(HolidayData(i), 101, 50)) = txtLocation.Text And Not txtLocation.Text = "" Then CountGot = CountGot + 1
+            If Trim(Mid(HolidayData(i), 151, 50)) = txtHolidayType.Text And Not txtHolidayType.Text = "" Then CountGot = CountGot + 1 'Counting how many attributes follow the search
             If Trim(Mid(HolidayData(i), 201, 50)) = txtRating.Text And Not txtRating.Text = "" Then CountGot = CountGot + 1
             If CountGot > 0 Then HolidayCount = HolidayCount + 1 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''If attributes match, add to the count.
         Next i
@@ -56,7 +56,7 @@ Public Class Holidays
 
     End Sub
 
-    Private Sub btnCustomers_Click(sender As System.Object, e As System.EventArgs) Handles btnCustomers.Click
+    Private Sub btnCustomers_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCustomers.Click
         frmCustomers.Show()
     End Sub
 End Class
